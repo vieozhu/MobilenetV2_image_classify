@@ -19,6 +19,7 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
+import datetime
 
 from datasets import dataset_factory
 from deployment import model_deploy
@@ -578,4 +579,12 @@ def main(_):
 
 
 if __name__ == '__main__':
+  print('start...')
+  start_time = datetime.datetime.now()
+
   tf.app.run()
+
+  end_time = datetime.datetime.now()
+  time_consume = (end_time - start_time).secends
+  print('time_consume: ' + time_consume)
+

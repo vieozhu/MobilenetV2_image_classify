@@ -1,0 +1,1 @@
+tensorboard --log_dir slim/satellite/train_log
