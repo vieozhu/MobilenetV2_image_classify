@@ -1,2 +1,2 @@
 # MobilenetV2_image_classify
-use MobilenetV2 classified images based on TF-slim
+Image classification based on MobilenetV2 using TF-Slim
